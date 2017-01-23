@@ -24,6 +24,7 @@ exports.test_pathIdGET = function(args, res, next) {
    * id String ID
    * no response value expected for this operation
    **/
-  res.end();
+  //res.end();
+  res.end(args.id.value);
 }
 

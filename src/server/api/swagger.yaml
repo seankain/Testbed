@@ -6,8 +6,7 @@ info:
     \ server will\nrender back everything.\n"
   version: "1.0.0"
   title: "Echo"
-host: "mazimi-prod.apigee.net"
-basePath: "/echo"
+basePath: "/"
 schemes:
 - "http"
 paths:
